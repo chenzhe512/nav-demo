@@ -37,7 +37,7 @@
         s: 'sohu.com',
         m: 'mcdonalds.com.cn'
     }
-    var hashInLocalStorage =JSON.parse(localStorage.getItem('uuu') || '')
+    var hashInLocalStorage = JSON.parse(localStorage.getItem('zzz') || '')
     if(hashInLocalStorage){
         hash = hashInLocalStorage
     }
@@ -59,7 +59,7 @@
                 key = (xzkjcnxlkcjlk.target.id)
                 x = prompt('geiwowangzhi')
                 hash[key] = x  //hash变更
-                localStorage.setItem('uuu', JSON.stringify(hash))
+                localStorage.setItem('zzz', JSON.stringify(hash))
                 console.log(hash)
             }
             kbd.appendChild(button)
